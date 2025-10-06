@@ -39,16 +39,10 @@ body{
             border-radius: 16px;
             padding: 24px;
             text-align: center;
-            cursor: pointer;
             transition: all 0.3s;
             border: 2px solid transparent;
         }
 
-        .occasion-card:hover {
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
-            transform: translateY(-8px);
-            border-color: #7c3aed;
-        }
 
         .occasion-icon {
             width: 64px;
@@ -147,7 +141,7 @@ body{
             box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
         }
     /*product*/
-           body {
+        body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f9fafb;
             padding: 40px 20px;
@@ -190,12 +184,7 @@ body{
             border: none;
             border-radius: 9999px;
             font-weight: 600;
-            cursor: pointer;
             transition: background 0.3s;
-        }
-
-        .view-all-btn:hover {
-            background: #6d28d9;
         }
 
     
@@ -216,20 +205,16 @@ body{
             position: relative;
         }
 
-        .product-card:hover {
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
-            transform: translateY(-4px);
-        }
-
-
+       
         .product-image {
             position: relative;
-            aspect-ratio: 1;
+            width: 100%;
+            height: 280px; 
+            max-height: 360px;
             background: linear-gradient(135deg, #ede9fe, #fbcfe8);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 100px;
         }
         .product-image img {
             width: 100%;
@@ -261,10 +246,6 @@ body{
             transition: opacity 0.3s;
         }
 
-        .product-card:hover .icon-buttons {
-            opacity: 1;
-        }
-
         .icon-btn {
             width: 36px;
             height: 36px;
@@ -274,40 +255,53 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
             transition: all 0.3s;
         }
 
-        .icon-btn:hover {
-            background: #7c3aed;
-            transform: scale(1.1);
-        }
-
-    
-        .countdown-timer {
+        
+            .countdown-timer {
             position: absolute;
             bottom: 12px;
-            left: 12px;
-            background: #7c3aed;
-            color: hsl(315, 76%, 84%);
-            padding: 6px 10px;
-            border-radius: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            background:#7c3aed;
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 8px 12px;
             display: flex;
-            align-items: center;
-            gap: 6px;
-            font-weight: 700;
-            box-shadow: 0 6px 10px rgba(0,0,0,0.08);
-            z-index: 5;
-            font-size: 13px;
+            gap: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
 
-        .countdown-item { display: flex; flex-direction: column; align-items: center; line-height: 1; }
-        .countdown-number { font-size: 14px; color: hsl(315, 76%, 84%);
-; }
-        .countdown-label { font-size: 10px; color: rgba(255,255,255,0.9); font-weight: 600; }
+        .countdown-item {
+            text-align: center;
+            min-width: 40px;
+        }
 
-        .countdown-separator { color: rgba(255,255,255,0.9); font-weight: 800; }
+        .countdown-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ed3ac6;
+            display: block;
+            line-height: 1;
+        }
+
+        .countdown-label {
+            font-size: 10px;
+             color: #ed3ac6;
+            text-transform: uppercase;
+            margin-top: 2px;
+            display: block;
+        }
+
+        .countdown-separator {
+            color: #ed3ac6;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
 
     
         .action-bar {
@@ -322,7 +316,6 @@ body{
         .action-item {
             padding: 10px;
             text-align: center;
-            cursor: pointer;
             transition: background 0.3s;
             border-right: 1px solid #6d28d9;
         }
@@ -331,11 +324,7 @@ body{
             border-right: none;
         }
 
-        .action-item:hover {
-            background: #6d28d9;
-        }
-
-    
+         
         .product-info {
             padding: 16px;
         }
@@ -391,12 +380,7 @@ body{
             font-size: 16px;
             color: #9ca3af;
             text-decoration: line-through;
-        }
 
-        .stock-status {
-            font-size: 13px;
-            color: #10b981;
-            font-weight: 600;
         }
 
 
