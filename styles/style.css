@@ -378,6 +378,449 @@ body{
 
         }
 
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, section, nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black; 
+}
+
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1400px; 
+  margin: 0 auto;
+  
+  box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+}
+.container {
+  max-width: 100%; 
+  margin: 0 auto;
+  /* padding: 0 200px;  */
+}
+
+
+.top-bar {
+  background: #5E00A6;
+  color: #fff;
+  font-size: 14px;
+}
+
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.signA {
+  color: #CF6BE5;
+  text-decoration: underline;
+  text-decoration-color: #CF6BE5;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #eee;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #5E00A6;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 36px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #5E00A6;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* 🔹 Hero Section */
+.hero {
+  background-color: #F8F4FF;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+}
+
+.hero-content {
+  max-width: 45%;
+}
+
+.tagline {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 8px 15px;
+  max-width: fit-content;
+}
+
+.tagline img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.tagline-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5E00A6;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: #5E00A6;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 16px;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+.btn-primary {
+  background: #5E00A6;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+/* .btn-primary:hover {
+  background: #4a0085;
+  transform: translateY(-2px);
+} */
+
+.btn-secondary {
+  margin-left: 20px;
+  color: black;
+
+  font-weight: 500;
+  display: inline-block;
+  padding: 15px 0;
+  position: relative;
+}
+
+
+
+/* Ratings */
+.hero .ratings {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  /* justify-content: center; */
+  border: 2px solid yellow;
+}
+
+.customers-imgs {
+  display: flex;
+  margin-right: 15px;
+  border: 2px solid red;
+}
+
+.customers-imgs img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: -10px;
+  border: 2px solid #fff;
+}
+
+.rating-plus {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FC93E9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: -10px;
+  border: 2px solid #fff;
+}
+
+.ratings p {
+  font-size: 16px;
+  display: block;
+  border: 2px solid green;
+}
+
+/* Hero Image */
+.hero-image {
+  position: relative;
+  max-width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  background: #fff;
+  color: #5E00A6;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.badge.secure {
+  top: 100px;
+  right: 20px;
+}
+
+.badge.delivery {
+  bottom: 60px;
+  left: 20px;
+}
+
+.badge.shop {
+  bottom: 80px;
+  right: 30px;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.badge img {
+  width: 40px;
+  height: 40px;
+}
+
+.badge.shop img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+/* Main grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px 1fr 350px;;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 0 50px;
+}
+
+/* Left and right images */
+.side-image img {
+  width: 100%;
+  width: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 500px;
+}
+
+/* Center promo box */
+.promo-box {
+  position: relative;
+  background: #F6F6F6;
+  border-radius: 25px;
+  text-align: center;
+  padding: 40px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  height: 500px;
+}
+
+.promo-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.promo-box h2 span {
+  color: #6000A7;
+}
+
+.promo-box p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Countdown Grid */
+.countdown {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.countdown div {
+  text-align: center;
+}
+
+.countdown h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.countdown p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.countdown span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Button */
+.shop-btn {
+  background: #5a0fc8;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  /* transition: background 0.3s ease; */
+}
+
+/* .shop-btn:hover {
+  background: #4a0ab0;
+} */
+
+/* Decorative flower corners */
+.decor {
+  position: absolute;
+  width: 100px;
+  pointer-events: none;
+}
+
+.decor.top {
+  top: 0;
+  left: 0;
+  border-radius: 0 10px;
+}
+
+.decor.bottom {
+  bottom: 0;
+  right: 0;
+}
+
+/* Category bar */
+.footer {
+  background: #5E00A6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 40px;
+  padding: 15px 0;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 500;
+  /* gap: 20px; */
+}
+
+
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* .category-bar a:hover {
+  text-decoration: underline;
+} */
+
+
+
+
 
 /* FOOTER */
 
