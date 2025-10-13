@@ -1,0 +1,35 @@
+/* ===== FEATURE SECTION ===== */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 4rem 1rem;
+  background-color: #fff;
+  margin-block: 20px;
+  height: 300px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+  text-align: left;
+}
+
+.feature-icon{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.feature h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #666;
+}
