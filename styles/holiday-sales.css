@@ -110,12 +110,10 @@
 /* Category bar */
 .category-footer {
   padding: 12px 0;
-
   background: var(--primary-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .category-content{
@@ -127,7 +125,7 @@
 .category-content a{
     color: var(--text-light);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 

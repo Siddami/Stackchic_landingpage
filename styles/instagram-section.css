@@ -1,7 +1,21 @@
 .instagram-section {
   text-align: center;
-  padding: 40px;
+  padding-block: 50px;
   background: var(--background);
+}
+
+.instagram-section p {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.instagram-section h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #000;
 }
 
 .instagram-section h2 span {
@@ -10,33 +24,63 @@
 .instagram-gallery {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-areas: 
-  "insta-pic1 insta-pic2 insta-picbig insta-picbig insta-pic4 insta-pic5"
-  "insta-pic6 insta-pic7 insta-picbig insta-picbig insta-pic8 insta-pic9" ;
-  gap: 10px;
-  margin-top: 30px;
-  margin-bottom: 80px;
+  grid-template-areas:
+    "insta-pic1 insta-pic2 insta-picbig insta-picbig insta-pic4 insta-pic5"
+    "insta-pic6 insta-pic7 insta-picbig insta-picbig insta-pic8 insta-pic9";
+  gap: 1.5em;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 .instagram-gallery img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
   border-radius: 12px;
+  transform: scale(1.25);
 }
 
-.insta-pic1 { grid-area: insta-pic1; }
-.insta-pic2 { grid-area: insta-pic2; }
-.insta-picbig { grid-area: insta-picbig; }
-.insta-pic4 { grid-area: insta-pic4; }
-.insta-pic5 { grid-area: insta-pic5; }
-.insta-pic6 { grid-area: insta-pic6; }
-.insta-pic7 { grid-area: insta-pic7; }
-.insta-pic8 { grid-area: insta-pic8; }
-.insta-pic9 { grid-area: insta-pic9; }
+.insta-pic1,
+.insta-pic2,
+.insta-pic4,
+.insta-pic5,
+.insta-pic6,
+.insta-pic7,
+.insta-pic8,
+.insta-pic9 {
+  overflow: hidden;
+  border-radius: 12px;
+  height: 300px;
+}
 
-.instagram-gallery img.large {
-  grid-column: span 2;
-  grid-row: span 2;
-  height: 100%;
+.insta-pic1 {
+  grid-area: insta-pic1;
+}
+.insta-pic2 {
+  grid-area: insta-pic2;
+}
+.insta-picbig {
+  grid-area: insta-picbig;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.insta-pic4 {
+  grid-area: insta-pic4;
+}
+.insta-pic5 {
+  grid-area: insta-pic5;
+}
+.insta-pic6 {
+  grid-area: insta-pic6;
+}
+.insta-pic7 {
+  grid-area: insta-pic7;
+}
+.insta-pic8 {
+  grid-area: insta-pic8;
+}
+.insta-pic9 {
+  grid-area: insta-pic9;
 }
