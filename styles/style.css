@@ -1,9 +1,101 @@
+<<<<<<< Updated upstream
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
 }
 
+=======
+:root{
+  --primary-color: #5E00A6;
+  --secondary-color: #ed8de4;
+  --background: #F3F3F3;
+  --bg-white: #ffffff;
+  --accent-color: #474745;
+  --accent-purple: #422541;
+  --text-color: #000000;
+  --text-gray: #A1A1A1;
+  --text-light: #e3c6ee;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, section, nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #333;
+  margin: 0 auto;
+}
+
+.btn{
+  cursor: pointer;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn:hover{
+  transform: scale(1.05);
+}
+
+.btn-primary{
+  background: var(--primary-color);
+  color: var(--text-light);
+}
+
+.btn-secondary{
+  background:  var(--secondary-color);
+  color: var(--accent-purple);
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.card-text{
+  max-width: 60%;
+  padding-left: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.card-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.card-accent{
+  background: var(--background);
+  color: var(--text-color);
+}
+
+.card-primary{
+  background: var(--primary-color);
+  color: var(--text-light); 
+}
+
+
+
+
+/*occasion*/
+>>>>>>> Stashed changes
         .occasions {
             max-width: 1280px;
             margin: 0 auto;
@@ -673,6 +765,7 @@ body {
 
 
 
+<<<<<<< Updated upstream
 /* Main grid container */
 .grid-container {
   display: grid;
@@ -1058,6 +1151,10 @@ body {
   height: 100%;
   object-fit: contain;
 }
+=======
+
+
+>>>>>>> Stashed changes
 
 
 
