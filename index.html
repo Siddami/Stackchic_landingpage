@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="styles/instagram-section.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/faq.css">
+    <link rel="stylesheet" href="styles/newsletter.css">
+    <link rel="stylesheet" href="styles/features.css">
     <link rel="stylesheet" href="styles/style.css">  
 </head>
 <body>
@@ -693,42 +695,8 @@
         </div>
           
       </div>
-      <!-- Features Section -->
-  <section class="features">
-    <div class="feature">
-      <i class="fa-solid fa-box"></i>
-      <div>
-        <h4>Free Shipping</h4>
-        <p>Free shipping for order above $50</p>
-      </div>
-    </div>
-    <div class="feature">
-      <i class="fa-solid fa-credit-card"></i>
-      <div>
-        <h4>Flexible Payment</h4>
-        <p>Multiple secure payment options</p>
-      </div>
-    </div>
-    <div class="feature">
-      <i class="fa-solid fa-headset"></i>
-      <div>
-        <h4>24×7 Support</h4>
-        <p>We support online all days</p>
-      </div>
-    </div>
-  </section>
 
-  <!-- Newsletter Section -->
-  <section class="newsletter">
-    <p>Our Newsletter</p>
-    <h2>Subscribe to Our Newsletter to Get <span>Updates on Our Latest Offers</span></h2>
-    <p>Get 20% off on your first order just by subscribing to our newsletter</p>
 
-    <form>
-      <input type="email" id="email" placeholder="Enter Email Address" required>
-      <button type="submit">Subscribe</button>
-    </form>
-  </section>
 
       <!--FAQ section-->
   <section class="faq-section">
@@ -738,13 +706,13 @@
       <div class="faq-list">
         <div class="faq-item">
           <p class="faq-question">What types of flowers do you offer?</p>
-          <span class="faq-icon">+</span>
+          <i class="fa-solid fa-plus faq-icon"></i>
         </div>
 
         <div class="faq-item active">
           <div class="faq-header">
             <p class="faq-question">Do you offer same-day delivery?</p>
-            <span class="faq-icon">-</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <p class="faq-answer">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -753,22 +721,22 @@
 
         <div class="faq-item">
           <p class="faq-question">Do you deliver outside your local area?</p>
-          <span class="faq-icon">+</span>
+          <i class="fa-solid fa-plus faq-icon"></i>
         </div>
 
         <div class="faq-item">
           <p class="faq-question">What payment methods do you accept?</p>
-          <span class="faq-icon">+</span>
+          <i class="fa-solid fa-plus faq-icon"></i>
         </div>
 
         <div class="faq-item">
           <p class="faq-question">Do you deliver to offices or event venues?</p>
-          <span class="faq-icon">+</span>
+          <i class="fa-solid fa-plus faq-icon"></i>
         </div>
 
         <div class="faq-item">
           <p class="faq-question">How do I track my order?</p>
-          <span class="faq-icon">+</span>
+          <i class="fa-solid fa-plus faq-icon"></i>
         </div>
       </div>
 
@@ -782,6 +750,45 @@
         <button class="btn btn-secondary">Contact Us</button>
       </div>
     </div>
+  </section>
+
+        <!-- Features Section -->
+  <section class="features">
+    <div class="feature">
+      <img src="/images/feature1.png" class="feature-icon" alt="shipping icon">
+      <div>
+        <h4>Free Shipping</h4>
+        <p>Free shipping for order above $50</p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="/images/feature2.png" class="feature-icon" alt="payment icon">
+      <div>
+        <h4>Flexible Payment</h4>
+        <p>Multiple secure payment options</p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="/images/speakker.png" class="feature-icon" alt="support icon">
+      <div>
+        <h4>24×7 Support</h4>
+        <p>We support online all days</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="newsletter-container">
+      <p>Our Newsletter</p>
+      <h2>Subscribe to Our Newsletter to Get <span>Updates on Our Latest Offers</span></h2>
+      <p>Get 20% off on your first order just by subscribing to our newsletter</p>
+
+      <form>
+        <input type="email" id="email" placeholder="Enter Email Address" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      </div>
   </section>
 
   <!-- Footer Section -->

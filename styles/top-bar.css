@@ -1,16 +1,13 @@
 /* Top bar */
 
 .topbar-container {
-  max-width: 1440px; 
+  max-width: 1440px;
   margin: 0 auto;
-
-} 
-
+}
 
 .top-bar {
-  background: #5E00A6;
+  background: var(--primary-color);
   color: #fff;
-  
 }
 
 .top-bar .topbar-container {
@@ -20,22 +17,21 @@
   padding: 20px 40px;
 }
 
-.contact{
+.contact {
   color: var(--text-light);
   font-size: 20px;
 }
 
-.offer{
+.offer {
   color: var(--text-light);
   font-size: 20px;
   font-weight: 500;
 }
 
 .sign-up {
-  color: #CF6BE5;
+  color: var(--secondary-color);
   text-decoration: underline;
-  text-decoration-color: #CF6BE5;
-  
+  text-decoration-color: var(--secondary-color);
 }
 
 .social-icons {
@@ -53,17 +49,18 @@
   background-color: white;
   color: var(--primary-color);
   border-radius: 50%;
-
-
-  
 }
-.social-icons a{
+.social-icons a {
   text-decoration: none;
 }
 
 /* Navbar */
 .navbar {
-  /* border-bottom: 1px solid #eee; */
+  width: 100%;
+  background: #ffffff;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar .container {
@@ -71,10 +68,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  /* max-width: 1440px; */
   margin: 0 auto;
-  background: #FFFFFF;
-  height: 100px;
 }
 
 .logo {
@@ -103,7 +97,7 @@
 }
 
 .nav-links a:hover {
-  color: #5E00A6;
+  color: var(--primary-color);
 }
 
 .icons {
