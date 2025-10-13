@@ -7,7 +7,7 @@
 
 .top-bar {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--text-light);
 }
 
 .top-bar .topbar-container {
@@ -58,16 +58,15 @@
 .navbar {
   width: 100%;
   background: #ffffff;
-  height: 100px;
-  display: flex;
-  align-items: center;
+  height: 80px;
 }
 
 .navbar .container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 40px;
   margin: 0 auto;
 }
 
@@ -100,13 +99,14 @@
   color: var(--primary-color);
 }
 
-.icons {
+.nav-icons {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
-.icons img {
-  width: 30px;
-  height: 30px;
+.nav-icons img {
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
