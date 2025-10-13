@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floral Landing page</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/top-bar.css">
+    <link rel="stylesheet" href="/styles/hero.css">
+    <link rel="stylesheet" href="styles/holiday-sales.css">
+    <link rel="stylesheet" href="styles/new-arrival.css">
+    <link rel="stylesheet" href="styles/deals-section.css">
+    <link rel="stylesheet" href="styles/instagram-section.css">
     <link rel="stylesheet" href="/styles/style.css">  
 </head>
 <body>
@@ -12,20 +18,20 @@
   <div class="top-bar">
         <div class="topbar-container">
         <div class="contact">Call Us: +123-456-789</div>
-        <div class="offer">Sign up and GET 20% OFF for your first order. <a href="#"><span class="signA"> Sign up now</span></a></div>
+        <div class="offer">Sign up and GET 20% OFF for your first order. <a href="#"><span class="sign-up"> Sign up now</span></a></div>
         <div class="social-icons">
-            <a href=""><img src="images/social.png" alt=""></a>
-            <a href=""><img src="images/twitter.png" alt=""></a>
-            <a href=""><img src="images/pinterest.png" alt=""></a>
-            <a href=""><img src="images/instagram.png" alt=""></a>
-            <a href=""><img src="images/youtube.png" alt=""></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
 
         </div>
         </div>
-    </div>
+  </div>
 
     <!--Navbar-->
-    <nav class="navbar">
+  <nav class="navbar">
         <div class="container">
             <div class="logo"><img src="images/flowerlogo1.png" alt="">Flower Shop.</div>
             <div class="nav-links">
@@ -44,21 +50,20 @@
                 <a href=""><img src="images/user.png" alt=""></a>
             </div>
         </div>
-    </nav>
+  </nav>
 
     <!--Hero section-->
 
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="tagline">
-                <img src="images/heroflower.png" alt="">
-                <span class="tagline-text">Your Trusted Online Flower Shop</span>
-                </div>
+  <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="tagline">
+            <img src="images/heroflower.png" alt="">
+            <span class="tagline-text">Your Trusted Online Flower Shop</span>
+          </div>
                 
-                <h1>The Ultimate <span>Flower Shopping Destination</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
+          <h1>The Ultimate <span>Flower Shopping Destination</span></h1>
+          <p class="tagline-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 <div class="buttons">
                   <a href="#" class="btn btn-primary">
                     <span>Shop Now</span> 
@@ -73,32 +78,50 @@
                       <img src="images/customer3.png" alt="">
                       <img src="images/customer1.png" alt="">
                       <img src="images/plus.png" class="rating-plus" alt="" &plus>
-                      
+         
+                </div>
+                <p><strong>4.9+ Ratings</strong> Trusted by 95k+ Customers</p>
+                </div>
+          <div class="buttons">
+            <a href="#" class="btn btn-primary">
+            <span>Shop Now</span> 
+            <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="view">View All Products </a>
+          </div>
+            
+          <div class="ratings">
+            <div class="customers-imgs">
+              <img src="images/customer1.png" alt="">
+              <img src="images/customer2.png" alt="">
+              <img src="images/customer3.png" alt="">
+              <img src="images/customer1.png" alt="">
+              <i class="fa-solid fa-plus"></i>
+                     
+            </div>
+            <div>
+              <p>4.9+ Ratings</p> 
+              <small>Trusted by 95k+ Customers</small></div>
+            </div>
+          </div>
 
-                  </div>
-                  <div>
-                    <p>4.9+ Ratings</p> 
-                    <small>Trusted by 95k+ Customers</small></div>
-                  </div>
+          <div class="hero-image">
+            <img src="images/flowerwoman.jpg" alt="Flower Girl">
+
+            <div class="badge secure">
+              <img src="images/flowergirl-wallet.jpg" alt="">
+              <p>Secure Payment</p>
             </div>
 
-            <div class="hero-image">
-                <img src="images/flowerwoman.png" alt="Flower Girl">
-
-                <div class="badge secure">
-                <img src="images/flowergirl-icon-secure.png" alt="">
-                <p>Secure Payment</p>
-                </div>
-
-                <div class="badge delivery">
-                <img src="images/flowergirl-icon-delivery.png" alt="">
-                <p>Fast Delivery</p>
-                </div>
-
-                <div class="badge shop">
-                <img src="images/flowergirl-icon-shop.png" alt="">
-                </div>
+            <div class="badge delivery">
+              <!-- <img src="images/flowergirl-icon-delivery.png" alt=""> -->
+              <i class="fa-solid fa-truck"></i>
+              <p>Fast Delivery</p>
             </div>
+
+            <div class=" shop">
+              <img src="images/flowergirl-icon-shop.png" alt="">
+            </div>
+          </div>
         </div>
     </section>
     <!--About section-->
@@ -278,46 +301,46 @@
     </div>
     <!--holiday sales-->
     <section class="holiday-sale">
-        <div class="grid-container">
+      <div class="grid-container">
         
         <!-- Left Image -->
         <div class="side-image left">
-            <img src="images/left-flowergirl.png" alt="Woman arranging flowers">
+          <img src="images/holidaygirl-left.jpg" alt="Woman arranging flowers">
         </div>
 
         <!-- Center Promo -->
         <div class="promo-box">
-            <img src="images/flower-top.png" alt="" class="decor top">
-            <h2><span>Holiday</span> Sales</h2>
-            <p>Get 50% off - Limited Time Offer!</p>
+          <img src="images/flower-top.png" alt="" class="decor top">
+          <h2><span>Holiday</span> Sales</h2>
+          <p>Get 50% off - Limited Time Offer!</p>
 
-            <div class="countdown">
+          <div class="countdown">
             <div>
-                <h3 id="days">04</h3><p>Days</p>
+              <h3 id="days">04</h3><p>Days</p>
             </div>
             <span>:</span>
             <div>
-                <h3 id="hours">14</h3><p>Hours</p>
+              <h3 id="hours">14</h3><p>Hours</p>
             </div>
             <span>:</span>
             <div>
-                <h3 id="minutes">48</h3><p>Minutes</p>
+              <h3 id="minutes">48</h3><p>Minutes</p>
             </div>
             <span>:</span>
             <div>
-                <h3 id="seconds">18</h3><p>Seconds</p>
+              <h3 id="seconds">18</h3><p>Seconds</p>
             </div>
-            </div>
+          </div>
 
-            <button class="shop-btn">Shop Now →</button>
-            <img src="images/flower-bottom.png" alt="" class="decor bottom">
+          <button class="btn btn-primary btn1">Shop Now →</button>
+          <!-- <img src="images/flower-bottom.png" alt="" class="decor bottom"> -->
         </div>
 
         <!-- Right Image -->
         <div class="side-image right">
-            <img src="images/right-flowergirl.png" alt="Woman holding flowers">
+          <img src="images/right-flowergirl.png" alt="Woman holding flowers">
         </div>
-        </div>
+      </div>
 
         <!-- Bottom Category Bar -->
         <div class="category-footer">
@@ -326,11 +349,40 @@
         <a href="#"> Anniversary</a>
         <a href="#"> Thank You</a>
         <a href="#"> Graduation</a>
-        </div>
-    </section>
-    <!-- New Arrival -->
 
-    <section class="new-product">
+      <!-- Bottom Category Bar -->
+      <div class="category-footer">
+        <div class="category-content">
+          <a href="#"> Birthday</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Wedding</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Anniversary </a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Thank You</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Graduation</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Birthday</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+          
+      </div>
+    </section>
+
+  <!-- New Arrival -->
+
+  <section class="new-product">
 
     <div class="container">
       <div class="header">
@@ -340,20 +392,18 @@
         </h1>
       </div>
 
-      <div class="product-grid">
-        <div class="product-card">
-
-
-          <div class="left-part">
-            <div class="product-image">
-              <span class="discount-badge">30% off</span>
-              <img src="images/product-flower.png" alt="Fresh Flower Basket">
+      <div class="product-flex">
+        <div class="card card-product">
+          <div class="left1-part">
+            <div class="leftpart-image">
+              <p class="discount1-badge">30% off</p>
+              <img src="images/product-flower.png" alt="">
             </div>
 
-            <div class="icon-column">
-              <button class="icon-btn">♡</button>
-              <button class="icon-btn">⛶</button>
-              <button class="icon-btn">🛒</button>
+            <div class="icons-columns">
+              <button class="icons-btn">♡</button>
+              <button class="icons-btn">⛶</button>
+              <button class="icons-btn">🛒</button>
             </div>
           </div>
 
@@ -383,19 +433,17 @@
 
         </div>
 
-        <div class="product-card">
-
-
-          <div class="left-part">
-            <div class="product-image">
-              <span class="discount-badge">30% off</span>
-              <img src="images/product-flower.png" alt="Fresh Flower Basket">
+        <div class="card card-product">
+          <div class="left1-part">
+            <div class="leftpart-image">
+              <p class="discount1-badge">30% off</p>
+              <img src="images/product-flower.png" alt="">
             </div>
 
-            <div class="icon-column">
-              <button class="icon-btn">♡</button>
-              <button class="icon-btn">⛶</button>
-              <button class="icon-btn">🛒</button>
+            <div class="icons-columns">
+              <button class="icons-btn">♡</button>
+              <button class="icons-btn">⛶</button>
+              <button class="icons-btn">🛒</button>
             </div>
           </div>
 
@@ -425,19 +473,17 @@
 
         </div>
 
-        <div class="product-card">
-
-
-          <div class="left-part">
-            <div class="product-image">
-              <span class="discount-badge">30% off</span>
-              <img src="images/product-flower.png" alt="Fresh Flower Basket">
+        <div class="card card-product">
+          <div class="left1-part">
+            <div class="leftpart-image">
+              <p class="discount1-badge">30% off</p>
+              <img src="images/product-flower.png" alt="">
             </div>
 
-            <div class="icon-column">
-              <button class="icon-btn">♡</button>
-              <button class="icon-btn">⛶</button>
-              <button class="icon-btn">🛒</button>
+            <div class="icons-columns">
+              <button class="icons-btn">♡</button>
+              <button class="icons-btn">⛶</button>
+              <button class="icons-btn">🛒</button>
             </div>
           </div>
 
@@ -468,7 +514,10 @@
         </div>
       </div>
 
-
+      <div class="promo-banner">
+        <div class="promo-content">
+      <div class="card card-primary promo-card">
+        <div class="promo-content card-text">
       <div class="card card-primary">
         <div class="promo-content card-text">
           <p class="promo-subtitle">Weekly Deals</p>
@@ -477,15 +526,11 @@
             on <span class="beu">Beautiful Flowers </span>
           </h2>
           <p class="promo-description"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
-          <button class="promo-button"> Shop Now → </button>
+          <button class="btn btn-secondary"> Shop Now → </button>
         </div>
         <div class="promo-image card-image"><img src="images/newproduct-flowergirl.png" alt=""> </div>
       </div>
 
-    
-
-
-    </div>
      <div class="category-footer">
         <a href="#"> Birthday</a>
         <a href="#"> Weddings</a>
@@ -582,6 +627,230 @@
       <button type="submit">Subscribe</button>
     </form>
   </section>
+    </div>
+     <!-- Bottom Category Bar -->
+      <div class="category-footer">
+        <div class="category-content">
+          <a href="#"> Birthday</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Wedding</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Anniversary </a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Thank You</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Graduation</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Birthday</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+          
+      </div>
+    </section>
+
+
+  <!--Deal of the Day  -->
+  <section class="deals-section">
+    <div class="container">
+      <h3>Best Seller</h3>
+      <div class="deals-header">
+        <h2><span >Deals</span> of the Day</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      </div>
+
+      <div class="deals-grid">
+        <div class="dealsgirl-card">
+          <img src="images/salesday-flowergirl.jpg" alt="Promo">
+          <div class="dealsgirl-text">
+            <h2>50% Off</h2>
+            <p>06 DEC - 16 DEC</p>
+            <a href="#" class="shop-link">SHOP NOW</a>
+          </div>
+        </div>
+
+        <div class="product1 sales-card">
+          <div class="sales-card1">
+            <div class="btn btn-secondary btn-sales">50% off</div>
+            <img src="images/salesflower1.png" alt="Rose Boutique">
+            <div class="icons-columns">
+              <button class="icons-btn">♡</button>
+              <button class="icons-btn">⛶</button>
+              <button class="icons-btn">🛒</button>
+            </div>
+          </div>
+          
+          <div class="product-info">
+            <div class="productinfo-ratings">
+              <p class="pinfo-bou">Bouquets</p>
+              <p class="pinfo-rate"><i class="fa-solid fa-star"></i> 4.8</p>
+            </div>
+            
+            
+            <h4>Rose Boutique</h4>
+            <p class="price">$35.00 <span>$70.00</span></p>
+            
+          </div>
+        </div>
+
+        <div class="product2 sales-card">
+          <div class="btn btn-secondary btn-sales">50% off</div>
+          <img src="images/salesflower2.png" alt="Rose Boutique">
+          <div class="product-info">
+            <div class="productinfo-ratings">
+              <p class="pinfo-bou">Bouquets</p>
+              <p class="pinfo-rate"><i class="fa-solid fa-star"></i> 4.8</p>
+            </div>
+            
+            <h4>Rose Boutique</h4>
+            <p class="price">$35.00 <span>$70.00</span></p>
+            
+          </div>
+        </div>
+
+        <div class="product3 sales-card">
+          <div class="btn btn-secondary btn-sales">50% off</div>
+          <img src="images/salesflower3.png" alt="Rose Boutique">
+          <div class="product-info">
+            <div class="productinfo-ratings">
+              <p class="pinfo-bou">Bouquets</p>
+              <p class="pinfo-rate"><i class="fa-solid fa-star"></i> 4.8</p>
+            </div>
+            
+            <h4>Rose Boutique</h4>
+            <p class="price">$35.00 <span>$70.00</span></p>
+            
+          </div>
+        </div>
+
+        <div class="product4 sales-card">
+          <div class="btn btn-secondary btn-sales">50% off</div>
+          <img src="images/salesflower4.jpeg" alt="Rose Boutique">
+          <div class="product-info">
+            <div class="productinfo-ratings">
+              <p class="pinfo-bou">Bouquets</p>
+              <p class="pinfo-rate"><i class="fa-solid fa-star"></i> 4.8</p>
+            </div>
+            
+            <h4>Rose Boutique</h4>
+            <p class="price">$35.00 <span>$70.00</span></p>
+            
+          </div>
+        </div>
+
+        <div class="product5 sales-card">
+          <div class="btn btn-secondary btn-sales">50% off</div>
+          <img src="images/salesflower5.png" alt="Rose Boutique">
+          <div class="product-info">
+            <div class="productinfo-ratings">
+              <p class="pinfo-bou">Bouquets</p>
+              <p class="pinfo-rate"><i class="fa-solid fa-star"></i> 4.8</p>
+            </div>
+            
+            <h4>Rose Boutique</h4>
+            <p class="price">$35.00 <span>$70.00</span></p>
+            
+          </div>
+        </div>
+
+        <div class="product6 sales-card">
+          <div class="btn btn-secondary btn-sales">50% off</div>
+          <img src="images/salesflower6.png" alt="Rose Boutique">
+          <div class="product-info">
+            <div class="productinfo-ratings">
+              <p class="pinfo-bou">Bouquets</p>
+              <p class="pinfo-rate"><i class="fa-solid fa-star"></i> 4.8</p>
+            </div>
+            
+            <h4>Rose Boutique</h4>
+            <p class="price">$35.00 <span>$70.00</span></p>
+            
+          </div>
+        </div>
+    
+        <!-- closing div of sales grid -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Section -->
+   <section class="instagram-section">
+    <div class="container">
+      <h3>Follow Us</h3>
+      <h2>Follow Us On <span>Instagram</span></h2>
+
+      <div class="instagram-gallery">
+        <div class="insta-pic1">
+          <img src="images/insta-pic1.jpg" alt="">
+        </div>
+        <div class="insta-pic2">
+          <img src="images/insta-pic2.jpg" alt="">
+        </div>
+        <div class="insta-picbig">
+          <img src="images/insta-picbig.jpg" alt="" class="large">
+        </div>
+        <div class="insta-pic4">
+          <img src="images/insta-pic4.jpg" alt="">
+        </div>
+        <div class="insta-pic5">
+          <img src="images/insta-pic5.jpg" alt="">
+        </div>
+        <div class="insta-pic6">
+          <img src="images/insta-pic6.jpg" alt="">
+        </div>
+        <div class="insta-pic7">
+          <img src="images/insta-pic7.jpg" alt="">
+        </div>
+        <div class="insta-pic8">
+          <img src="images/insta-pic8.jpg" alt="">
+        </div>
+        <div class="insta-pic9">
+          <img src="images/insta-pic9.jpg" alt="">
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Bottom Category Bar -->
+      <div class="category-footer">
+        <div class="category-content">
+          <a href="#"> Birthday</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Wedding</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Anniversary </a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Thank You</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Graduation</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+        <div class="category-content">
+          <a href="#"> Birthday</a>
+          <img src="images/holidayflower.png" alt="">
+        </div>
+          
+      </div>
+
+   </section>
 
   <!-- Footer Section -->
   <footer>

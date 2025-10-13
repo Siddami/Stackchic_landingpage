@@ -1,12 +1,18 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
 :root{
-  --primary-color: #6447a6;
+  --primary-color: #5E00A6;
   --secondary-color: #ed8de4;
-  --background: #f6f6f6;
+  --background: #F3F3F3;
   --bg-white: #ffffff;
   --accent-color: #474745;
   --accent-purple: #422541;
   --text-color: #000000;
-  --text-gray: ##A1A1A1;
+  --text-gray: #A1A1A1;
   --text-light: #e3c6ee;
 }
 
@@ -730,7 +736,6 @@ body {
 
         }
 
-
 /* Main grid container */
 .grid-container {
   display: grid;
@@ -1112,6 +1117,7 @@ body {
   height: 100%;
   object-fit: contain;
 }
+
 
 .faq-section {
   max-width: 1000px;
